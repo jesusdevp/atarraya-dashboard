@@ -1,0 +1,17 @@
+.graphic__menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  //   width: 100%;
+}
+
+.graphic__menu-item {
+  border: 1px solid $primary;
+  padding: 10px 0 10px 0;
+  background-color: $white-color;
+  text-decoration: none;
+  color: #6f7078;
+}
+
+.graphic__menu-item:first-child {
+  background-color: $gray-card;
+}

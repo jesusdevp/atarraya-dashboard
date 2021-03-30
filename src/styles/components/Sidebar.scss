@@ -1,0 +1,15 @@
+.sidebar {
+  display: flex;
+  justify-content: center;
+  background-color: $white-color;
+  height: 100vh;
+  width: 5%;
+}
+
+.sidebar__menu {
+  margin-top: 5rem;
+}
+
+.sidebar__menu p {
+  margin-bottom: 25px;
+}

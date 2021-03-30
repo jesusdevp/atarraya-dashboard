@@ -1,0 +1,12 @@
+@import "./base/settings";
+@import "./base/base";
+
+// Components
+@import "./Screens/PerformanceScreen.scss";
+@import "./components/Sidebar.scss";
+@import "./components/DashboardMenu.scss";
+@import "./components/Overview.scss";
+@import "./components/Graphics.scss";
+@import "./components/GraphicMenu.scss";
+@import "./components/Graphic.scss";
+@import "./components/Generations.scss";

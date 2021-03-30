@@ -1,0 +1,49 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: $primary;
+}
+
+.mt-1 {
+  margin-top: 5px;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24;
+  font-weight: bold;
+  color: $dark-color;
+  width: 100%;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 19;
+}
+
+.layout__main {
+  display: flex;
+}
+
+.margin__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 5rem 82px 5rem 82px;
+  width: 100%;
+}
